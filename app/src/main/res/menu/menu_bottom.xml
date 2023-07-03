@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/adiblarFragment"
+        android:icon="@drawable/ic_adiblar"
+        android:title="Adiblar" />
+
+    <item
+        android:id="@+id/saqlanganlarFragment"
+        android:icon="@drawable/ic_saqlananlar"
+        android:title="Saqlangan" />
+
+    <item
+        android:id="@+id/sozlamalarFragment"
+        android:icon="@drawable/ic_sozlamalar"
+        android:title="Sozlamalar" />
+
+</menu>

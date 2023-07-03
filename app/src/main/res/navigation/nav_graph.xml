@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/adiblarFragment">
+
+    <fragment
+        android:id="@+id/adiblarFragment"
+        android:name="uz.fergana.daholar.fragments.AdiblarFragment"
+        android:label="fragment_adiblar"
+        tools:layout="@layout/fragment_adiblar" />
+    <fragment
+        android:id="@+id/saqlanganlarFragment"
+        android:name="uz.fergana.daholar.fragments.SaqlanganlarFragment"
+        android:label="fragment_saqlanganlar"
+        tools:layout="@layout/fragment_saqlanganlar" />
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="uz.fergana.daholar.fragments.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uz.fergana.daholar.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="uz.fergana.daholar.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/infoAppFragment"
+        android:name="uz.fergana.daholar.fragments.InfoAppFragment"
+        android:label="fragment_info_app"
+        tools:layout="@layout/fragment_info_app" />
+    <fragment
+        android:id="@+id/aboutAdibFragment"
+        android:name="uz.fergana.daholar.fragments.AboutAdibFragment"
+        android:label="fragment_about_adib"
+        tools:layout="@layout/fragment_about_adib" />
+
+</navigation>
